@@ -1,0 +1,67 @@
+\input{contenido/includes.tex}
+%\pagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Limpia encabezados y pies de página
+\fancypagestyle{plain}{%
+	\fancyhf{} % Limpia encabezados y pies
+	\fancyfoot[R]{\thepage} % Número de página en la parte inferior derecha
+	\renewcommand{\headrulewidth}{0pt} % Sin línea superior
+	\renewcommand{\footrulewidth}{0pt} % Sin línea inferior
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\pagestyle{plain}
+
+
+%\title{Análisis Temporal del Retroceso de Superficie en el Glaciar Quelccaya, Cordillera Vilcanota, Perú, mediante Técnicas de Deep Learning y Procesamiento de Imágenes Satelitales}
+
+\title{\MakeUppercase{Aplicación de Deep Learning y Procesamiento de Imágenes Satelitales para el Análisis Temporal del Retroceso Superficial del Glaciar Quelccaya en la Cordillera Vilcanota, Perú}}
+
+\author{Br. Andres Benjamin Quispe Quispe}
+\orientador{Dr.Ing. Facundo Palomino Quispe}
+%pagestyle{fancy}
+%\fancyhf{}
+%\fancyfoot[C]{\thepage}
+
+
+\begin{document}
+	%\renewcommand{\BOthers}[1]{\textit{et al.}\hbox{}}
+	\maketitle
+	\clearpage
+	\pagenumbering{roman}
+	\input{contenido/contenido_inicial}
+	\tableofcontents %Inserta el índice general
+	\clearpage
+	\listoftables %Inserta el índice de cuadros
+	%\addcontentsline{toc}{chapter}{Lista de Tablas}
+	\listoffigures %Inserta el índice de figuras
+	%\addcontentsline{toc}{chapter}{Lista de Figuras}
+	\setlength{\tabcolsep}{6pt} % Default value: 6pt Horizontal spacing
+	\renewcommand{\arraystretch}{1}% Default value: 1 Vertical spacing
+	\clearpage
+	\pagenumbering{arabic}
+	\input{contenido/introduccion}
+	
+	\input{contenido/cap_1_introduccion}
+	\input{contenido/cap_2_marco_teorico}
+	%\input{contenido/cap_3_metodologia)}
+	\input{contenido/cap_4_diseño_sistema}
+	%\input{contenido/cap_5)}
+	\input{contenido/cap_5_experimento_resultado}
+	\input{contenido/cap_6_comparacion}
+	\input{contenido/contenido_final}
+	%\input{contenido/discusion}
+	%\input{contenido/conclusiones}
+	%\input{contenido/recomendaciones}
+	
+	%\bibliographystyle{apacite}
+	%\addbibresource{contenido/bibliografia.bib}
+	\printbibliography
+	\addcontentsline{toc}{chapter}{Bibliografía}
+
+	\input{contenido/anexos)}
+
+\end{document}

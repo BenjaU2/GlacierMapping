@@ -1,0 +1,39 @@
+\input{contenido/includes.tex}
+\pagestyle{empty}
+
+\title{Evolución Temporal de los Glaciares en la Cordillera del Vilcanota, Nevado de Quelccaya: Un Análisis mediante Imágenes Satelitales y Técnicas de Deep Learning}
+\author{Br. Andres Benjamin Quispe Quispe}
+\orientador{Dr.Ing. Facundo Palomino Quispe}
+\pagestyle{fancy}
+%\fancyhf{}
+%\fancyfoot[C]{\thepage}
+
+
+\begin{document}
+	%\renewcommand{\BOthers}[1]{\textit{et al.}\hbox{}}
+	\maketitle
+	\clearpage
+	\pagenumbering{roman}
+	\tableofcontents %Inserta el índice general
+	\clearpage
+	\listoftables %Inserta el índice de cuadros
+	%\addcontentsline{toc}{chapter}{Lista de Tablas}
+	\listoffigures %Inserta el índice de figuras
+	%\addcontentsline{toc}{chapter}{Lista de Figuras}
+	\setlength{\tabcolsep}{6pt} % Default value: 6pt Horizontal spacing
+	\renewcommand{\arraystretch}{1}% Default value: 1 Vertical spacing
+	\clearpage
+	\pagenumbering{arabic}
+	
+	\input{contenido/cap_1_introduccion}
+	\input{contenido/cap_2_marco_teorico}
+	\input{contenido/cap_3_metodologia)}
+	
+	%\bibliographystyle{apacite}
+	%\addbibresource{contenido/bibliografia.bib}
+	\printbibliography
+	\addcontentsline{toc}{chapter}{Bibliografía}
+
+	\input{contenido/anexos)}
+
+\end{document}

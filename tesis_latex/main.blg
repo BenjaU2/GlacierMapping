@@ -1,0 +1,25 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[1] Config.pm:310> INFO - Logfile is 'main.blg'
+[85] biber:340> INFO - === lun nov 18, 2024, 12:03:17
+[111] Biber.pm:419> INFO - Reading 'main.bcf'
+[223] Biber.pm:979> INFO - Found 70 citekeys in bib section 0
+[256] Biber.pm:4419> INFO - Processing section 0
+[267] Biber.pm:4610> INFO - Looking for bibtex file 'contenido/bibliografia.bib' for section 0
+[270] bibtex.pm:1713> INFO - LaTeX decoding ...
+[340] bibtex.pm:1519> INFO - Found BibTeX data source 'contenido/bibliografia.bib'
+[858] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[859] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[859] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[993] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[993] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[993] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[1121] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1186] bbl.pm:763> INFO - Output to main.bbl
+[1186] Biber.pm:131> WARN - Duplicate entry key: 'aliaga2018retroceso' in file 'contenido/bibliografia.bib', skipping ...
+[1186] Biber.pm:131> WARN - Duplicate entry key: 'taylor2022multi' in file 'contenido/bibliografia.bib', skipping ...
+[1186] Biber.pm:131> WARN - Duplicate entry key: 'malone2022evolution' in file 'contenido/bibliografia.bib', skipping ...
+[1186] Biber.pm:131> WARN - legacy year field 'Fecha de acceso' in entry 'geotig' is not an integer - this will probably not sort properly.
+[1186] Biber.pm:131> WARN - legacy year field 'fecha de acceso' in entry 'eos' is not an integer - this will probably not sort properly.
+[1186] Biber.pm:131> WARN - legacy year field 'fecha de acceso' in entry 'herdy_pytorch' is not an integer - this will probably not sort properly.
+[1186] Biber.pm:131> WARN - I didn't find a database entry for 'montazerolghaem2023' (section 0)
+[1186] Biber.pm:133> INFO - WARNINGS: 7

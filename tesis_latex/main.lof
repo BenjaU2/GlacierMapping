@@ -1,0 +1,60 @@
+\babel@toc {spanish}{}\relax 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Ubicación del manto glaciar Quelccaya}}{4}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces \raggedright \textit {Incidencia de anemia por grupo etario y según residencia.}}}{6}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces \raggedright \textit {Incidencia de anemia por grupo etario y según residencia.}}}{6}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces \raggedright \textit {Incidencia de anemia por grupo etario y según residencia.}}}{7}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Retroceso superficial del Glaciar Quelccaya vista a travéz de una imagen satelital.}}{7}{figure.caption.14}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Componentes circundantes de un glaciar.}}{24}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Localización de las cordilleras glaciares en el Perú.}}{25}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Carbono negro en la superficie del glaciar Yanapaccha, cordillera Blanca.}}{28}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Espectro electromagnético basada en el rango de longitud de onda y frecuencia.}}{29}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Transmisión Atmosférica.}}{31}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Ventanas Atmosféricas en Imágenes Ópticas Multiespectrales.}}{31}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Subsistemas de la plataforma L8.}}{33}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Subsistemas de la plataforma L5.}}{35}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Modélo basico de un sensor para adquirir imágenes.}}{40}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Ejemplo de adquisición y formación de una imagen digital}}{42}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Subconjuntos de la inteligencia artificial.}}{43}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Tareas de aprendizaje supervisado con salidas estructuradas.}}{44}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Modelo representativo de datos de entrenamiento, entrada/salida.}}{46}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Ajuste de la función de perdida.}}{47}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Visualización de la función de perdida.}}{48}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Ajuste de la función de perdida en el entrenamiento.}}{48}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Estructura jerárquica de una ANN}}{49}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Proceso de convolución.}}{53}{figure.caption.37}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Convolución 2D aplicado a una imagen RGB}}{53}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Representación de una CNN}}{54}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Segmentación semántica.}}{54}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Arquitectura U-Net}}{55}{figure.caption.41}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Arquitectura profunda ResUnet}}{58}{figure.caption.42}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Arquitectura profunda DeepLabV3+}}{59}{figure.caption.43}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Flujo de trabajo en este estudio.}}{61}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Procesamiento de datos para el analisis temporal.}}{62}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Escenas de Landsat seleccionadas para el conjunto de datos.}}{64}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Acondicionamiento de imágenes Landsat 8.}}{65}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Corrección de agua y sombras.}}{67}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Proceso de creación de máscaras}}{67}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Arquitectura del modelo U-Net}}{69}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Arquitectura del modelo DeepResUnet.}}{70}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Bloques fundamentales de las redes neuronales.}}{71}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Arquitectura del modelo DeepLabV3Plus.}}{71}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Representación de muestras de conjuntos de datos (RGB y máscara) utilizadas para entrenar el modelo.}}{73}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Gráficos de pérdida de entrenamiento y métricas de precisión para U-NET.}}{75}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Gráficos de pérdida de entrenamiento y métricas de precisión para DeepResUnet.}}{76}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Gráficos de pérdida de entrenamiento y métricas de precisión para DeepLabV3Plus.}}{76}{figure.caption.58}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Resultado del indicador MIou evaluado para cada modelo.}}{78}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Resultado del indicador PA evaluado para cada modelo.}}{78}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Resultado del indicador Dice evaluado para cada modelo.}}{78}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Resultado de convergencia de la función de pérdida (Loss) evaluado para cada modelo.}}{79}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Análisis cualitativo y cuantitativo de los modelos eveluados.}}{80}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Proceso de predicción y reconstrucción para calcular el área segmentada.}}{81}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Retroceso superficial del glaciar Quelccaya.}}{81}{figure.caption.66}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Cuerpos glaciares extintos.}}{81}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Contornos glaciares más antiguos y mas recientes del glaciar Quelccaya.}}{82}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Análisis temporal del glaciar Quelccaya.}}{84}{figure.caption.70}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Serie temporal de superficie glaciar Quelccaya.}}{87}{figure.caption.71}%

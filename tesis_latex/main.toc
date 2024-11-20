@@ -1,0 +1,94 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\'{I}ndice general}{\es@scroman {vii}}{chapter*.6}%
+\contentsline {chapter}{Índice de tablas}{\es@scroman {x}}{chapter*.7}%
+\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {xi}}{chapter*.8}%
+\contentsline {chapter}{Introducción}{1}{chapter*.9}%
+\contentsline {chapter}{\numberline {1}Aspectos generales}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Ámbito geográfico}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Descripción de la realidad problemática}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Formulación del problema}{9}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Problema general}{9}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Problemas específicos}{10}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}Justificación}{10}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Objetivos}{12}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Objetivo general}{12}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Objetivos específicos}{13}{subsection.1.5.2}%
+\contentsline {section}{\numberline {1.6}Hipótesis}{13}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Hipótesis general}{13}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Hipótesis específicos}{13}{subsection.1.6.2}%
+\contentsline {section}{\numberline {1.7}Variables e indicadores}{14}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Identificación de variables}{14}{subsection.1.7.1}%
+\contentsline {subsubsection}{Variable independiente}{14}{subsection.1.7.1}%
+\contentsline {subsubsection}{Variable dependiente}{14}{subsection.1.7.1}%
+\contentsline {section}{\numberline {1.8}Alcance de la investigación}{15}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Viabilidad y factibilidad}{15}{section.1.9}%
+\contentsline {section}{\numberline {1.10}Limitaciones de la investigación}{16}{section.1.10}%
+\contentsline {section}{\numberline {1.11}Delimitación del estudio}{17}{section.1.11}%
+\contentsline {chapter}{\numberline {2}Marco teórico}{18}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Antecedentes de estudio}{18}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Bases teóricas}{23}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Glaciares}{23}{subsection.2.2.1}%
+\contentsline {subsubsection}{Glaciares Tropicales}{24}{figure.caption.15}%
+\contentsline {subsubsection}{Clasificación de los glaciares tropicales}{24}{figure.caption.16}%
+\contentsline {subsection}{\numberline {2.2.2}Retroceso glaciar}{26}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Principales causas del retroceso glaciar}{26}{subsection.2.2.3}%
+\contentsline {subsubsection}{Cambio climático}{26}{subsection.2.2.3}%
+\contentsline {subsubsection}{Contaminación por particulas absorbentes de luz}{27}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Teledetección}{28}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Radiación electromagnética}{29}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Interacción de la radiación con la atmosfera}{30}{subsection.2.2.6}%
+\contentsline {subsubsection}{Absorción atmosferica}{30}{subsection.2.2.6}%
+\contentsline {subsubsection}{Dispersión}{31}{figure.caption.20}%
+\contentsline {subsection}{\numberline {2.2.7}Resolución de imágenes}{32}{subsection.2.2.7}%
+\contentsline {subsubsection}{Resolución espacial}{32}{subsection.2.2.7}%
+\contentsline {subsubsection}{Resolución espectral}{32}{subsection.2.2.7}%
+\contentsline {subsubsection}{Resolución radiométrica}{32}{subsection.2.2.7}%
+\contentsline {subsubsection}{Resolución temporal}{32}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.2.8}Programa Satélite Landsat 8}{33}{subsection.2.2.8}%
+\contentsline {subsubsection}{Plataforma del Satélite l8}{33}{subsection.2.2.8}%
+\contentsline {subsection}{\numberline {2.2.9}Programa Satélite Landsat 5}{34}{subsection.2.2.9}%
+\contentsline {subsubsection}{Componentes de espacio y hardware}{34}{subsection.2.2.9}%
+\contentsline {subsection}{\numberline {2.2.10}Landsat 8 OLI/TIRS Collection 2 Level 1}{35}{subsection.2.2.10}%
+\contentsline {subsection}{\numberline {2.2.11}Landsat Thematic Mapper (TM) Collection 2 Level 1}{36}{subsection.2.2.11}%
+\contentsline {subsection}{\numberline {2.2.12}Indice espectral}{36}{subsection.2.2.12}%
+\contentsline {subsubsection}{Índice diferencial normalizado de nieve (NDSI)}{37}{subsection.2.2.12}%
+\contentsline {subsubsection}{Fórmula del NDSI}{38}{subsection.2.2.12}%
+\contentsline {subsection}{\numberline {2.2.13}Procesamiento de imágenes digitales}{38}{subsection.2.2.13}%
+\contentsline {subsubsection}{Formación de una imagen digital}{39}{subsection.2.2.13}%
+\contentsline {subsection}{\numberline {2.2.14}Deep Learning}{42}{subsection.2.2.14}%
+\contentsline {subsection}{\numberline {2.2.15}Estructura de entradas y salidas}{42}{subsection.2.2.15}%
+\contentsline {subsection}{\numberline {2.2.16}Aprendizaje Supervizado}{44}{subsection.2.2.16}%
+\contentsline {subsection}{\numberline {2.2.17}Función de perdida}{45}{subsection.2.2.17}%
+\contentsline {subsection}{\numberline {2.2.18}Entrenamiento}{46}{subsection.2.2.18}%
+\contentsline {subsection}{\numberline {2.2.19}Testeo}{47}{subsection.2.2.19}%
+\contentsline {subsection}{\numberline {2.2.20}Redes Neuronales profundas}{48}{subsection.2.2.20}%
+\contentsline {subsection}{\numberline {2.2.21}Aprendizaje no Supervizado}{49}{subsection.2.2.21}%
+\contentsline {subsection}{\numberline {2.2.22}Redes neuronales artificiales}{49}{subsection.2.2.22}%
+\contentsline {subsection}{\numberline {2.2.23}Redes Neuronales Convolucionales}{50}{subsection.2.2.23}%
+\contentsline {subsubsection}{Segmentación semántica}{52}{figure.caption.39}%
+\contentsline {subsubsection}{Arquitecturas de segmentación semántica}{54}{figure.caption.40}%
+\contentsline {subsubsection}{U-Net}{54}{figure.caption.40}%
+\contentsline {subsubsection}{ResUNet}{56}{figure.caption.41}%
+\contentsline {subsubsection}{DeepLabV3}{59}{figure.caption.42}%
+\contentsline {chapter}{\numberline {3}Diseño del sistema de segmentación de cuerpos glaciares}{61}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Base de datos}{62}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Adquisición de imágenes}{63}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Acondicionamiento de las imágenes satelitales}{63}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Generación de máscaras}{65}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Tratamiento de imágenes}{66}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Arquitecturas de aprendizaje profundo (Deep learning)}{68}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Implementación de la arquitectura de deep learning}{68}{subsection.3.2.1}%
+\contentsline {subsubsection}{Función de pérdida}{69}{figure.caption.53}%
+\contentsline {subsubsection}{Métricas de evaluación}{72}{equation.3.2.1}%
+\contentsline {subsubsection}{Proceso de entrenamiento}{73}{equation.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.2}Resultados de entrenamiento}{75}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {4}Experimentos y resultados}{77}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Experimentos}{77}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Evolución del glaciar Quelccaya}{79}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Resultados}{83}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Comparación con trabajos previos}{85}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Análisis del modelo}{88}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Análisis del rendimiento de segmentación de glaciares}{89}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Segmentación de glaciares y variación de glaciares}{90}{section.5.3}%
+\contentsline {chapter}{Bibliografía}{101}{chapter*.75}%
+\contentsline {chapter}{Anexos}{101}{chapter*.76}%

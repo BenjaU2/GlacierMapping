@@ -1,0 +1,49 @@
+\chapter*{Dedicatoria}
+\doublespacing
+Dedico esta tesis a mi familia, pilar fundamental de cada uno de mis logros. A mi abuelita Rosa, quien me brindó su amor incondicional y me crió como a un hijo propio. A mi padre, Walter, por su apoyo constante y sus enseñanzas, que siempre me impulsan a seguir adelante. A mis queridas hermanas, Raquel y Yanina, quienes han sido como una madre para mí; sus palabras de aliento y ánimo han fortalecido mis metas en cada paso. A mi hermano Michael y a mis sobrinos, que me inspiran a continuar en esta carrera y han sido siempre mi refugio. Y, sobre todo, agradezco profundamente a Dios, quien fortalece y alimenta mi espíritu. Él ha sido mi confianza y mi fortaleza a lo largo de este proceso.
+
+\singlespacing
+
+\chapter*{Agradecimientos}
+\doublespacing
+Quiero expresar mi más sincero agradecimiento a todas las personas que hicieron posible la realización de esta investigación. Extiendo un agradecimiento especial a Dios quien ha sido mi guía a lo largo de este camino, a mi familia, quienes han sido mi sostén y mi fuente de motivación a lo largo de este proceso. Su apoyo incondicional ha sido fundamental para alcanzar este logro.
+
+Agradezco, al Dr. Ing. Facundo Palomino, mi asesor, por su orientación, paciencia y constante preocupación. Sus consejos y su apoyo han sido una fuente de inspiración invaluable en cada etapa de este trabajo.
+
+Agradezco también a la Dra. Ing. Ana Beatriz Álvarez, por su generosidad al compartir sus conocimientos y por su apoyo al laboratorio LIECAR, que fueron necesarios para llevar a cabo este estudio.
+
+Finalmente, agradezco a todos mis amigos del laboratorio institucional LIECAR que, de una u otra forma, contribuyeron con su apoyo y compañía en este proceso, y a cada persona que, con sus palabras y acciones, me alentó a seguir adelante.
+
+
+\singlespacing
+
+\chapter*{Resumen}
+\doublespacing
+%En las últimas décadas, los glaciares tropicales han experimentado un retroceso global, principalmente debido al calentamiento global. La pérdida de superficie glaciar se ha vuelto cada vez más severa, impulsando cambios en la hidrología y el desarrollo del paisaje montañoso, lo cual conlleva múltiples riesgos. La cuantificación de las variaciones glaciales es de gran interés, tanto por la importancia de los glaciares como recursos de agua dulce como por su rol como indicadores del cambio climático. Por esta razón, es fundamental monitorear la dinámica glaciar para cuantificar dichas variaciones.
+En las últimas décadas, los glaciares tropicales han retrocedido significativamente debido al calentamiento global, afectando la hidrología y el paisaje montañoso, y aumentando los riesgos asociados. Su monitoreo es esencial para cuantificar estas variaciones, dado su rol como reservas de agua dulce e indicadores del cambio climático.
+
+Las técnicas de teledetección, ampliamente utilizadas desde la década de 1970, permiten detectar vegetación, agua,  glaciares, etc. La comunidad científica emplea estos datos para el monitoreo de la cobertura del suelo, incluida la detección de cuerpos glaciares. Estudios previos han usado índices espectrales para detectar y segmentar glaciares; sin embargo, estos métodos presentan limitaciones y pueden ser complejos cuando se trata de inventariar glaciares extensos con precisión.
+
+Por otro lado, los métodos de aprendizaje profundo han demostrado ser muy eficientes para el procesamiento y segmentación de imágenes en diversas disciplinas. Este estudio analiza temporalmente la variación del glaciar Quelccaya, en la cordillera de Vilcanota entre Cusco y Puno, en el periodo 1991-2024. Se emplean métodos de aprendizaje profundo junto con datos ópticos de teledetección de las misiones Landsat, generando un conjunto de datos de 2400 muestras para tareas de segmentación semántica y el entrenamiento de un modelo de deep learning que extrae automáticamente cuerpos glaciares a partir de imágenes multiespectrales.
+
+Se proponen tres modelos de deep learning: U-Net, DeepResUnet y DeepLabV3Plus, todos para segmentación semántica. Estos modelos se entrenaron con el 70\% de las muestras, usando el 15\% para validación y el 15\% para evaluación. Para evaluar la eficiencia de los modelos se utilizaron métricas como el Dice Coefficient (Dice), la Intersección sobre Unión media (mIoU) y la Precisión por Pixel (PA). De estos, U-Net mostró los mejores resultados con una mejor precisión en segmentación y extracción glaciar por encima de los otros modelos. U-Net se empleó para mapear el glaciar Quelccaya desde 1991 hasta 2024 en el área de estudio y evaluar el impacto del cambio climático. Los resultados indican que la superficie del glaciar Quelccaya disminuyó notablemente en un 30.15\% durante este periodo, pasando de 50.81 km² en 1991 a 35.49 km² en 2024, con una tasa de disminución de 0.38 km²/año y un intervalo de confianza del 93\%. Los resultados de este estudio fueron comparados con los de investigaciones previas sobre el glaciar Quelccaya, mostrando una alta coincidencia con estos estudios anteriores.
+%de mIoU: 98.10\%, PA: 99.79\% y Dice: 99.04\%. Los resultados de los tres modelos confirman que los métodos de aprendizaje profundo alcanzan precisiones altas y muy altas, proporcionando una referencia prometedora para el análisis superficial de glaciares tropicales.
+
+%U-Net se empleó para mapear el glaciar Quelccaya desde 1991 hasta 2024 en el área de estudio y evaluar el impacto del cambio climático. Los resultados indican que la superficie del glaciar Quelccaya disminuyó notablemente en un 30.15\% durante este periodo, pasando de 50.81 km² en 1991 a 35.49 km² en 2024, con una tasa de disminución de 0.38 km²/año y un intervalo de confianza del 93\%.
+
+%Los resultados de este estudio fueron comparados con los de investigaciones previas sobre el glaciar Quelccaya, mostrando una alta coincidencia con estos estudios anteriores.
+
+\textbf{Palabras clave:} Teledetección; Landsat;  procesamiento de imágenes; aprendizaje profundo; segmentación semántica.
+\singlespacing
+
+\chapter*{Abstract}
+\doublespacing
+In recent decades, tropical glaciers have experienced a global retreat, primarily due to global warming. The loss of glacier surface has become increasingly severe, driving changes in hydrology and mountain landscape development, which poses multiple risks. Quantifying glacier variations is of great interest, both due to the importance of glaciers as freshwater resources and their role as indicators of climate change. For this reason, it is essential to monitor glacier dynamics in order to quantify these variations.
+
+Remote sensing techniques, widely used since the 1970s, allow for the detection of vegetation, water, glaciers, and more. The scientific community employs this data for land cover monitoring, including the detection of glacier bodies. Previous studies have used spectral indices to detect and segment glaciers; however, these methods have limitations and can be complex when it comes to accurately inventorying extensive glaciers.
+
+On the other hand, deep learning methods have proven to be highly efficient for image processing and segmentation across various disciplines. This study temporally analyzes the variation of the Quelccaya Glacier in the Vilcanota mountain range, between Cusco and Puno, over the period from 1991 to 2024. Deep learning methods are employed alongside optical remote sensing data from the Landsat missions, generating a dataset of 2400 samples for semantic segmentation tasks and training a deep learning model that automatically extracts glacier bodies from multispectral images.
+
+Three deep learning models are proposed: U-Net, DeepResUnet, and DeepLabV3Plus, all for semantic segmentation. These models were trained with 70\% of the samples, using 15\% for validation and 15\% for evaluation. To assess the efficiency of the models, metrics such as the Dice Coefficient (Dice), Mean Intersection over Union (mIoU), and Pixel Accuracy (PA) were used. Of these, U-Net showed the best results with superior segmentation accuracy and glacier extraction compared to the other models. U-Net was used to map the Quelccaya Glacier from 1991 to 2024 in the study area and evaluate the impact of climate change. The results indicate that the surface area of the Quelccaya Glacier decreased significantly by 30.15\% during this period, from 50.81 km² in 1991 to 35.49 km² in 2024, with a rate of decrease of 0.38 km²/year and a 93\% confidence interval. The results of this study were compared with previous research on the Quelccaya Glacier, showing a high degree of agreement with these earlier studies.
+
+\singlespacing

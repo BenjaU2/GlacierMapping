@@ -1,0 +1,44 @@
+\documentclass[12pt, a4paper, openany]{book}
+\usepackage{verbatim} % Necesario para el entorno comment
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{babel}
+\addto\captionsspanish{\renewcommand{\listtablename}{Índice de tablas}}
+\usepackage{newtxtext,newtxmath}
+\usepackage[margin=2.54cm]{geometry}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage[]{caratula}
+\usepackage[babel]{csquotes}
+\usepackage[style=apa, backend=biber]{biblatex}
+\DeclareLanguageMapping{spanish}{spanish-apa} 
+\addbibresource{contenido/bibliografia.bib}
+\usepackage{tocbibind}
+\usepackage{hyperref} %% parametro [hidelinks] para ocultar los cuadrados.
+\DeclareCiteCommand{\parencite}[\mkbibparens]
+{\boolfalse{citetracker}%
+	\boolfalse{pagetracker}%
+	\usebibmacro{prenote}}
+{\ifciteindex
+	{\indexnames{labelname}}
+	{}%
+	\printtext[bibhyperref]{\printnames{labelname}%
+		\addcomma\addspace\printdate}}
+{\multicitedelim}
+{\usebibmacro{postnote}}
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{0.5\baselineskip}{0.5\baselineskip}
+\titlespacing*{\subsection}{0pt}{0.5\baselineskip}{0.5\baselineskip}
+\titlespacing*{\subsubsection}{0pt}{0.5\baselineskip}{0.5\baselineskip}
+\usepackage{pdflscape}
+\usepackage{caption}
+\captionsetup{justification=centerlast,labelfont=bf,textfont=it}
+\usepackage{subcaption}
+\captionsetup[table]{name=Tabla}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage{soul}
+\usepackage{setspace}
+\usepackage{romannum}
+\usepackage[skip=0pt]{caption} % Incluido en el preámbulo
+\usepackage[justification=raggedright]{caption} % En el preámbu

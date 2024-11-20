@@ -1,0 +1,65 @@
+\chapter{Discusión}
+\doublespacing
+\begin{comment}
+Como se comentó en el capitulo 4 en la parte de resultados de entrenamiento, los modelos propuestos fueron evaluados durante 25 epocas porque ya no se mostro mejoras despues de estas epocas, para obtener un rendimiento adecuado y óptimo fue nevcesario buscar valores de hiperparametros adecuados como se enumeran en la tabla \ref{tabla2}, esto se logro entrenando multiples veces los modelos para encontrar las configuraciones adecuadas, Figuras \ref{fig:Miou_vs_epochs}, \ref{fig:PA_vs_epochs} y \ref{fig:DICE_vs_epochs} se muestran los resultados de las metricas MIOu, PA y Dicce, evaluadas para cada modelo. Los gráficos revelan que U-Net y DeepResUnet presentan un comportamiento muy similar y consistente, lo cual indica que estas redes realizan un proceso de segmentación semántica eficiente. Sin embargo, los resultados del modelo DeeplabV3Plus no son alentadores, ya que no alcanza un desempeño competitivo frente a U-Net y DeepResUnet.
+
+En la Figura \ref{fig:Loss_vs_epochs} se muestran los resultados del comportamiento de la función de pérdida para cada modelo utilizando los datos de evaluación. Se observa que la función de pérdida converge de manera más efectiva en los modelos U-Net y DeepResUnet, mientras que en el caso de DeepLabV3Plus, esta función de pérdida permanece elevada en comparación con U-Net y DeepResUnet.
+
+Los resultados cuantitativos se presentan en la tabla \ref{tabla3},donde se observa que DeepLabV3Plus obtuvo el rendimiento más bajo en la segmentación según las métricas. Por otro lado, DeepResUnet mostró una mejora considerable en comparación con DeepLabV3Plus al evaluar las mismas imágenes y métricas. Sin embargo, U-Net fue el modelo que alcanzó los mejores resultados en la segmentación de cuerpos glaciares, llegando a obtener una precición MIou de 98.10 \% y un aperdida de entrenamiento de 1\%.
+
+Según el antecedente de \parencite{rajat2022glacier}, quien también trabaja con imágenes satelitales para mapear superficies glaciares, se observa que la precisión de píxeles de U-Net es inicialmente baja, pero aumenta rápidamente después de la época 20. En su estudio, el modelo U-Net fue entrenado durante 200 épocas, alcanzando una precisión del 95.89 \% en el conjunto de datos y una tasa de pérdida de entrenamiento de apenas 0.07 \%, lo cual es notablemente bajo.
+
+Si bien es cierto en este estudio U-Net alcanzo una presición alta en comparación con \parencite{rajat2022glacier} se podria deber a la cantidad de datos de entrenamiento, en este estudio se utilizo 2,400 imagenes y de estas el 70\% de datos son para entrenmiento ademas se utilizo data augmentation en el código de entrenamiento, la perdida es mucho menor para \parencite{rajat2022glacier} que paara este estudio, esto puede deberse a las 25 épocas de entrenamiento para este entrenamiento en comparación a las 200 epocas de entrenamiento de \parencite{rajat2022glacier}
+
+En la Figura \ref{fig:Loss_vs_epochs} se muestran los resultados del comportamiento de la función de pérdida para cada modelo utilizando los datos de evaluación. Se observa que la función de pérdida converge de manera más efectiva en los modelos U-Net y DeepResUnet, mientras que en el caso de DeepLabV3Plus, esta función de pérdida permanece elevada en comparación con U-Net y DeepResUnet.
+
+Basado en la integración de las bandas 2, 3, 4, 5, 6 y 7 para Landsat 8 y las bandas 1,2,3,4,5,7 para landsat 5 Collection 2 Level-1, U-Net demostró ser el modelo con el mejor rendimiento, mostrando una gran precisión en la clasificación y segmentación de los límites de una amplia variedad de glaciares.
+
+No obstante, ResUnet tambien presenta un comportamiento muy similar a U-Net. Sin embargo; este modelo presenta el mayor número de parámetros de entrenamiento en comparación con U-Net y DeepLabV3+, lo que se atribuye al mecanismo residual, que, aunque mejora el rendimiento, incrementa el costo computacional.
+\end{comment}
+
+Este estudio empleó un modelo de deep learning U-Net para segmentar los cuerpos glaciares del segundo glaciar más grande del mundo, el Quelccaya en Perú, utilizando imágenes de teledetección de Landsat correspondientes a varios años. El objetivo fue analizar los cambios ocurridos en el glaciar a lo largo de las últimas tres décadas.
+\section{Análisis del modelo}
+En la sección de resultados de entrenamiento, los modelos propuestos fueron evaluados durante 25 épocas, ya que se observó que no se obtenían mejoras significativas después de este número de iteraciones. Para lograr un rendimiento óptimo, fue necesario ajustar los valores de hiperparámetros, los cuales se presentan en la Tabla \ref{tabla2}. Este ajuste se realizó mediante múltiples entrenamientos para identificar la configuración más adecuada. Las Figuras \ref{fig:Miou_vs_epochs}, \ref{fig:PA_vs_epochs} y \ref{fig:DICE_vs_epochs} muestran los resultados de las métricas MIoU, PA y Dice, evaluadas para cada modelo. En estos gráficos, U-Net y DeepResUnet presentan un comportamiento consistente y similar, lo que sugiere que ambos modelos logran una segmentación semántica efectiva. En contraste, el modelo DeeplabV3Plus no alcanzó un desempeño competitivo en comparación con U-Net y DeepResUnet.
+
+\section{Análisis del rendimiento de segmentación de glaciares}
+
+La Figura \ref{fig:Loss_vs_epochs} muestra la evolución de la función de pérdida en cada modelo durante las evaluaciones. Aquí, U-Net y DeepResUnet logran una convergencia más efectiva, mientras que DeepLabV3Plus mantiene una pérdida elevada en comparación, indicando un menor ajuste en la segmentación.
+
+Los resultados cuantitativos están resumidos en la Tabla \ref{tabla3}, donde se observa que DeepLabV3Plus tiene el menor rendimiento en segmentación según las métricas. DeepResUnet mejora considerablemente sobre DeepLabV3Plus al evaluar las mismas imágenes y métricas, mientras que U-Net destaca como el modelo de mayor precisión en la segmentación de cuerpos glaciares, alcanzando una precisión MIoU del 98.10\% y una pérdida de entrenamiento del 1\%.
+
+Comparando con el estudio de \parencite{rajat2022glacier}, que también mapea superficies glaciares usando imágenes satelitales, U-Net mostró inicialmente una precisión de píxeles baja en su caso, aumentando rápidamente después de la época 20. En su estudio, entrenaron U-Net durante 200 épocas, obteniendo una precisión del 95.89\% y una tasa de pérdida de entrenamiento de solo 0.07\%. Este menor valor de pérdida podría deberse a la mayor cantidad de épocas (200) en comparación con las 25 épocas utilizadas en este estudio, así como a posibles diferencias en la cantidad y calidad de datos de entrenamiento.
+
+En cuanto a la precisión observada en este estudio, U-Net muestra un rendimiento superior en comparación con \parencite{rajat2022glacier}. Esto puede estar relacionado con el uso de 2,400 imágenes del conjunto de datos, de las cuales el 70\% se destinó a entrenamiento, y  además se iplementó técnicas de aumento de datos en el algoritmo de entrenamiento.
+
+Basado en la integración de las bandas 2, 3, 4, 5, 6 y 7 para Landsat 8 y las bandas 1, 2, 3, 4, 5 y 7 para Landsat 5 Collection 2 Level-1, U-Net demostró ser el modelo de mejor rendimiento, con una alta precisión en la clasificación y segmentación de diversos glaciares.
+
+DeepResUnet también mostró un comportamiento similar a U-Net en cuanto a precisión; sin embargo, tiene el mayor número de parámetros de entrenamiento en comparación con U-Net y DeepLabV3Plus, debido al uso del mecanismo residual que, aunque mejora el rendimiento, también incrementa el costo computacional.
+
+
+
+\section{Segmentación de glaciares y variación de glaciares}
+
+Como se observa en la Figura \ref{fig:comparative_predictions}, los modelos propuestos presentan diferentes niveles de precisión en la segmentación de cuerpos glaciares. DeepLabV3Plus, aunque aceptable en términos generales, no logró segmentar los detalles finos de los cuerpos glaciares con la precisión esperada. En contraste, DeepResUnet mostró una segmentación más detallada de los límites glaciares, superando a DeepLabV3Plus en su capacidad para capturar los contornos de manera más completa. Sin embargo, el mejor rendimiento fue alcanzado por U-Net, que proporcionó la segmentación más precisa y detallada, demostrando su eficacia en la delineación exacta de los bordes glaciares.
+
+En la Figura \ref{fig:imagen_temporal}, se presentan las imágenes binarias que reconstruyen la segmentación del glaciar Quelccaya desde 1991 hasta 2024 utilizando el modelo U-Net. Claramente, la extensión glaciar disminuye a lo largo de los años, y las áreas señaladas en los recuadros rojos de la Figura \ref{fig:comparacion} ilustran glaciares que desaparecen progresivamente. Sin embargo, la estimación precisa de la extensión glaciar a partir de imágenes satelitales requiere evitar escenas con nieve efímera, ya que esta puede introducir errores significativos en la estimación de la superficie glaciar. 
+
+
+En la Figura \ref{fig:predicciones_temporales} Se observa claramente un retroceso significativo en la superficie glaciar a lo largo del tiempo, siendo más pronunciado en el lado occidental del glaciar en comparación con el lado oriental. Además, conforme el área glaciar ha disminuido, según los estudios de \parencite{inaigem2023} se ha evidenciado la formación y expansión de varias lagunas en la zona.
+
+A diferencia de \parencite{malone2022evolution}, \parencite{taylor2022multi} y \parencite{hanshaw2014glacial}, quienes utilizaron el metodo NDSI para segmentar y extraer cuerpos glaciares, en este estudio se utilizó modelos de aprendizaje profundo para realizar la misma tarea, calcular los errores de las estimaciones no es una practica común, a pesar de la importancia de estimar correctamente la duperficie glaciar, segun \parencite{montoya2024estimation} si existe una clasificación errónea de los pixeles se debe a la insertidumbre del umbral NDSI, para ello es comun trabajar con umbrales que oscilen entre 0.55 y 0.66.
+
+Es importante notar que el ritmo de disminución de la superficie glaciar varía anualmente. La tecnología satelital, combinada con herramientas avanzadas de segmentación automática, facilita el monitoreo de glaciares en retroceso, aunque sigue enfrentando desafíos, especialmente en la diferenciación entre agua, sombras y campos de nieve. Esto es particularmente relevante para glaciares cubiertos parcial o totalmente por escombros, donde una mayor resolución espacial ofrece ventajas significativas, no solo en términos de precisión de los límites glaciares, sino también en la visibilidad de características específicas, como grietas y texturas superficiales. Cabe mencionar que se estan realizando muchos esfuerzos para estudiar la deglaciación en los Andes peruanos. Sin embargo estos estudios son complejos debido a los numerosos picos montañosos y a las caracteristicas únicas en cuanto a ubicación e interacción con el medio ambiente. 
+
+En general, la estimación de la superficie glaciar de Quelccaya obtenida en este estudio es varia ligeramente en comparación con estudios previos. Esto se debe en parte a que el modelo U-Net mejora la propagación de características, reduce la perdida de información, aumenta el peso de las secciones de glaciares y maneja la amplia gama de categorías de píxeles del glaciar. 
+
+Además fue optimizado para segmentar específicamente las superficies glaciares, lo que aumenta la confiabilidad de los resultados obtenidos. Este método automático permite segmentar el glaciar en cada imagen multiespectral de forma precisa, lo que respalda la viabilidad de esta técnica para estudios futuros de monitoreo glaciar. Estas imágenes multiepectrales de teledetección son muy buenas para segmentar cuerpos glaciares y su convinación con aprendizaje automatico tienen sus propias ventajas sobre el método tradicional NDSI de extracción de glaciares.
+
+\singlespacing
+
+
+
+
+
+
+
